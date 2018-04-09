@@ -4,7 +4,7 @@ There are gift registry apps everywhere, but why are there no apps to help us re
 
 We're going to build our own using MongoDB, Express, and Node.js!
 
-(It will look something like this: https://regifterapp.herokuapp.com/)
+(It will look something like this: https://regifter-app.herokuapp.com/)
 
 ### The Assignment
 
