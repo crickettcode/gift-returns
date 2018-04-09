@@ -1,13 +1,11 @@
 require('dotenv').config()
-const User = require('./models/User')
-const Store = require('./models/Store')
-const Gift = require('./models/Gift')
+const User = require('../models/User')
+const Store = require('../models/Store')
+const Gift = require('../models/Gift')
 const mongoose = require('mongoose')
 
 // connect to database
-mongoose.connect(process.env.MONGODB_URI, {
-  useMongoClient: true
-})
+mongoose.connect(process.env.MONGODB_URI)
 
 mongoose.connection.once('open', () => {
   console.log(`Mongoose has connected to MongoDB`)
